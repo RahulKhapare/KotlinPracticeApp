@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rak_developer.kotlinpracticeapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".mvvm_retrofitcoroutines_db.repository.QuotesApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".activity.NavigationComponentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PagingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MVVMRetrofitWithCoroutinesAndDatabaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RecyclerAdapaterWithAndWithoughtBindingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ListAdapterWithDiffUtilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MVVMArchitectureWithDBActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RoomDatabaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DataBindingAdapterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DataBindingWithLiveDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DataBindingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LiveDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.QuotesViewModelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ViewModelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LifecycleAwareActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.JetpackComponentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MiscViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TimeDateViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SwitcherViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BarViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LayoutViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EditTextViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ButtonViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ImageViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ScrollViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TextViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

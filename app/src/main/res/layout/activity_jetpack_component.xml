@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/btnLifecycleAware"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg"
+                android:padding="16dp"
+                android:text="Lifecycle Aware" />
+
+            <Button
+                android:id="@+id/btnViewModel"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bg"
+                android:padding="16dp"
+                android:text="View Model/View Model Factory" />
+
+            <Button
+                android:id="@+id/btnViewModelApp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bg"
+                android:padding="16dp"
+                android:text="(Quotes App)\nView Model/View Model Factory" />
+
+            <Button
+                android:id="@+id/btnLiveData"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bg"
+                android:padding="16dp"
+                android:text="Live Data" />
+
+            <Button
+                android:id="@+id/btnDataBinding1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bg"
+                android:padding="16dp"
+                android:text="Data Binding" />
+
+            <Button
+                android:id="@+id/btnDataBinding2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bg"
+                android:padding="16dp"
+                android:text="Data Binding With ViewModel/Live Data By One &amp; Two Way" />
+
+            <Button
+                android:id="@+id/btnDataBinding3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bg"
+                android:padding="16dp"
+                android:text="Data Binding Adapter" />
+
+            <Button
+                android:id="@+id/btnRoomDatabase"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bg"
+                android:padding="16dp"
+                android:text="Room Database With Type Converters &amp; Migrations" />
+
+            <Button
+                android:id="@+id/btnMVVMArchitectureDB"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bg"
+                android:padding="16dp"
+                android:text="MVVM Architecture With Database" />
+
+            <Button
+                android:id="@+id/btnListAdapter"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bg"
+                android:padding="16dp"
+                android:text="List Adapter WIth Diff Util" />
+
+            <Button
+                android:id="@+id/btnRecyclerAdapter"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bg"
+                android:padding="16dp"
+                android:text="RecyclerAdapter WIth &amp; Withought Binding" />
+
+            <Button
+                android:id="@+id/btnMVVMRetrofitCoroutinesAndDBAndWorkManagerAndError"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bg"
+                android:padding="16dp"
+                android:text="MVVM With Retrofit Coroutines &amp; Database &amp; WorkManager &amp; ErrorHandling" />
+
+            <Button
+                android:id="@+id/btnPaging"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bg"
+                android:padding="16dp"
+                android:text="Paging 3" />
+
+            <Button
+                android:id="@+id/btnNavigation"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_bg"
+                android:padding="16dp"
+                android:text="Navigation" />
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</layout>

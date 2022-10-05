@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnTextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg"
+                    android:padding="16dp"
+                    android:text="Text View" />
+
+                <Button
+                    android:id="@+id/btnScrollView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_bg"
+                    android:padding="16dp"
+                    android:text="Scroll View" />
+
+
+                <Button
+                    android:id="@+id/btnImageView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_bg"
+                    android:padding="16dp"
+                    android:text="Image View" />
+
+                <Button
+                    android:id="@+id/btnListView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_bg"
+                    android:padding="16dp"
+                    android:text="List View" />
+
+                <Button
+                    android:id="@+id/btnButtonView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_bg"
+                    android:padding="16dp"
+                    android:text="Button" />
+
+                <Button
+                    android:id="@+id/btnEditText"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_bg"
+                    android:padding="16dp"
+                    android:text="EditText" />
+
+                <Button
+                    android:id="@+id/btnLayouts"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_bg"
+                    android:padding="16dp"
+                    android:text="Layouts" />
+
+                <Button
+                    android:id="@+id/btnBar"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_bg"
+                    android:padding="16dp"
+                    android:text="Bar" />
+
+                <Button
+                    android:id="@+id/btnSwitcher"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_bg"
+                    android:padding="16dp"
+                    android:text="Switcher" />
+
+                <Button
+                    android:id="@+id/btnTimeAndDatePicker"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_bg"
+                    android:padding="16dp"
+                    android:text="Time &amp; Date Picker" />
+
+                <Button
+                    android:id="@+id/btnMisc"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_bg"
+                    android:padding="16dp"
+                    android:text="Misc" />
+
+                <Button
+                    android:id="@+id/btnJetpack"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_bg"
+                    android:padding="16dp"
+                    android:text="Jetpack Architecture Component" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+
+</layout>

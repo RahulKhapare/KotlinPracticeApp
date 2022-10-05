@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../.gradle/caches/transforms-3/0d9c4ea8642d7fd11bf01baeb332c040/transformed/appcompat-1.3.1/res/drawable/abc_ic_ab_back_material.xml" value="0.1235" />
+        <entry key="../../../.gradle/caches/transforms-3/0d9c4ea8642d7fd11bf01baeb332c040/transformed/appcompat-1.3.1/res/drawable/abc_ic_clear_material.xml" value="0.1235" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1235" />
+        <entry key="app/src/main/res/drawable/background_red.xml" value="0.1145" />
+        <entry key="app/src/main/res/drawable/button_bg.xml" value="0.1235" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1235" />
+        <entry key="app/src/main/res/layout/activity_bar_view.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_button_view.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_data_binding.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_data_binding_adapter.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_data_binding_with_live_data.xml" value="0.11094224924012158" />
+        <entry key="app/src/main/res/layout/activity_edit_text_view.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_image_view.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_jetpack_component.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_layout_view.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_lifecycle_aware.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_list_adapter_diff_util.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_list_view.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_live_data.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_misc_view.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_mvvm_architecture.xml" value="0.18725951261222745" />
+        <entry key="app/src/main/res/layout/activity_mvvm_architecture_db.xml" value="0.18725951261222745" />
+        <entry key="app/src/main/res/layout/activity_mvvm_architecture_retrofit.xml" value="0.18725951261222745" />
+        <entry key="app/src/main/res/layout/activity_mvvm_retrofit_coroutines_db.xml" value="0.18725951261222745" />
+        <entry key="app/src/main/res/layout/activity_navigation.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_paging.xml" value="0.18725951261222745" />
+        <entry key="app/src/main/res/layout/activity_programming_list_item.xml" value="0.18725951261222745" />
+        <entry key="app/src/main/res/layout/activity_quotes_view_model.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_recycler_view.xml" value="0.18725951261222745" />
+        <entry key="app/src/main/res/layout/activity_retrofit_coroutines.xml" value="0.18725951261222745" />
+        <entry key="app/src/main/res/layout/activity_room_database.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_scroll_view.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_switcher_view.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_text_view.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_time_date_view.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/activity_view_model.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.18725951261222745" />
+        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.18725951261222745" />
+        <entry key="app/src/main/res/layout/fragment_note.xml" value="0.18725951261222745" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.18725951261222745" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
